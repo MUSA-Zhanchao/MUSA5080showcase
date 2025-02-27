@@ -3333,4 +3333,7 @@ input, select, textarea {
 			height: 400px; /* Ensures all images have the same height (adjust as needed) */
 			object-fit: cover; /* Prevents distortion while covering the area */
 		}
-
+		.bigger-text {
+			font-size: 2em;      /* Adjust this to match the desired size */
+			font-weight: bold;   /* Optional: make it bold if needed */
+		  }
