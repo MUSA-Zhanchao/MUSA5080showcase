@@ -1422,34 +1422,34 @@ div.sourceCode
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-code span.al { color: #ef2929; } 
-code span.an { color: #8f5902; font-weight: bold; font-style: italic; } 
-code span.at { color: #204a87; } 
-code span.bn { color: #0000cf; } 
-code span.cf { color: #204a87; font-weight: bold; } 
-code span.ch { color: #4e9a06; } 
-code span.cn { color: #8f5902; } 
-code span.co { color: #8f5902; font-style: italic; } 
-code span.cv { color: #8f5902; font-weight: bold; font-style: italic; } 
-code span.do { color: #8f5902; font-weight: bold; font-style: italic; } 
-code span.dt { color: #204a87; } 
-code span.dv { color: #0000cf; } 
-code span.er { color: #a40000; font-weight: bold; } 
-code span.ex { } 
-code span.fl { color: #0000cf; } 
-code span.fu { color: #204a87; font-weight: bold; } 
-code span.im { } 
-code span.in { color: #8f5902; font-weight: bold; font-style: italic; } 
-code span.kw { color: #204a87; font-weight: bold; } 
-code span.op { color: #ce5c00; font-weight: bold; } 
-code span.ot { color: #8f5902; } 
-code span.pp { color: #8f5902; font-style: italic; } 
-code span.sc { color: #ce5c00; font-weight: bold; } 
-code span.ss { color: #4e9a06; } 
-code span.st { color: #4e9a06; } 
-code span.va { color: #000000; } 
-code span.vs { color: #4e9a06; } 
-code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } 
+code span.al { color: #ef2929; }
+code span.an { color: #8f5902; font-weight: bold; font-style: italic; }
+code span.at { color: #204a87; }
+code span.bn { color: #0000cf; }
+code span.cf { color: #204a87; font-weight: bold; }
+code span.ch { color: #4e9a06; }
+code span.cn { color: #8f5902; }
+code span.co { color: #8f5902; font-style: italic; }
+code span.cv { color: #8f5902; font-weight: bold; font-style: italic; }
+code span.do { color: #8f5902; font-weight: bold; font-style: italic; }
+code span.dt { color: #204a87; }
+code span.dv { color: #0000cf; }
+code span.er { color: #a40000; font-weight: bold; }
+code span.ex { }
+code span.fl { color: #0000cf; }
+code span.fu { color: #204a87; font-weight: bold; }
+code span.im { }
+code span.in { color: #8f5902; font-weight: bold; font-style: italic; }
+code span.kw { color: #204a87; font-weight: bold; }
+code span.op { color: #ce5c00; font-weight: bold; }
+code span.ot { color: #8f5902; }
+code span.pp { color: #8f5902; font-style: italic; }
+code span.sc { color: #ce5c00; font-weight: bold; }
+code span.ss { color: #4e9a06; }
+code span.st { color: #4e9a06; }
+code span.va { color: #000000; }
+code span.vs { color: #4e9a06; }
+code span.wa { color: #8f5902; font-weight: bold; font-style: italic; }
 .sourceCode .row {
 width: 100%;
 }
@@ -2001,31 +2001,31 @@ individuals.</p>
 <span id="cb5-3"><a href="#cb5-3" tabindex="-1"></a>test_preds1 <span class="ot">&lt;-</span> <span class="fu">ifelse</span>(test_probs1 <span class="sc">&gt;</span> threshold1, <span class="dv">1</span>, <span class="dv">0</span>)</span>
 <span id="cb5-4"><a href="#cb5-4" tabindex="-1"></a><span class="fu">confusionMatrix</span>(<span class="fu">as.factor</span>(test_preds1), <span class="fu">as.factor</span>(test<span class="sc">$</span>recidivism_yes), <span class="at">positive =</span> <span class="st">&quot;1&quot;</span>)</span></code></pre></div>
 <pre><code>## Confusion Matrix and Statistics
-## 
+##
 ##           Reference
 ## Prediction    0    1
 ##          0  156   29
 ##          1 2320 3337
-##                                                
-##                Accuracy : 0.5979               
-##                  95% CI : (0.5852, 0.6105)     
-##     No Information Rate : 0.5762               
-##     P-Value [Acc &gt; NIR] : 0.0003946            
-##                                                
-##                   Kappa : 0.062                
-##                                                
+##
+##                Accuracy : 0.5979
+##                  95% CI : (0.5852, 0.6105)
+##     No Information Rate : 0.5762
+##     P-Value [Acc &gt; NIR] : 0.0003946
+##
+##                   Kappa : 0.062
+##
 ##  Mcnemar&#39;s Test P-Value : &lt; 0.00000000000000022
-##                                                
-##             Sensitivity : 0.9914               
-##             Specificity : 0.0630               
-##          Pos Pred Value : 0.5899               
-##          Neg Pred Value : 0.8432               
-##              Prevalence : 0.5762               
-##          Detection Rate : 0.5712               
-##    Detection Prevalence : 0.9683               
-##       Balanced Accuracy : 0.5272               
-##                                                
-##        &#39;Positive&#39; Class : 1                    
+##
+##             Sensitivity : 0.9914
+##             Specificity : 0.0630
+##          Pos Pred Value : 0.5899
+##          Neg Pred Value : 0.8432
+##              Prevalence : 0.5762
+##          Detection Rate : 0.5712
+##    Detection Prevalence : 0.9683
+##       Balanced Accuracy : 0.5272
+##
+##        &#39;Positive&#39; Class : 1
 ## </code></pre>
 </div>
 <div id="threshold-0.5-and-model-evaluation" class="section level2">
@@ -2040,31 +2040,31 @@ of 0.5400 , and a 0.666 overall precision.</p>
 <span id="cb7-3"><a href="#cb7-3" tabindex="-1"></a>test_preds2 <span class="ot">&lt;-</span> <span class="fu">ifelse</span>(test_probs2 <span class="sc">&gt;</span> threshold2, <span class="dv">1</span>, <span class="dv">0</span>)</span>
 <span id="cb7-4"><a href="#cb7-4" tabindex="-1"></a><span class="fu">confusionMatrix</span>(<span class="fu">as.factor</span>(test_preds2), <span class="fu">as.factor</span>(test<span class="sc">$</span>recidivism_yes), <span class="at">positive =</span> <span class="st">&quot;1&quot;</span>)</span></code></pre></div>
 <pre><code>## Confusion Matrix and Statistics
-## 
+##
 ##           Reference
 ## Prediction    0    1
 ##          0 1337  809
 ##          1 1139 2557
-##                                                
-##                Accuracy : 0.6666               
-##                  95% CI : (0.6543, 0.6786)     
-##     No Information Rate : 0.5762               
+##
+##                Accuracy : 0.6666
+##                  95% CI : (0.6543, 0.6786)
+##     No Information Rate : 0.5762
 ##     P-Value [Acc &gt; NIR] : &lt; 0.00000000000000022
-##                                                
-##                   Kappa : 0.305                
-##                                                
-##  Mcnemar&#39;s Test P-Value : 0.00000000000009041  
-##                                                
-##             Sensitivity : 0.7597               
-##             Specificity : 0.5400               
-##          Pos Pred Value : 0.6918               
-##          Neg Pred Value : 0.6230               
-##              Prevalence : 0.5762               
-##          Detection Rate : 0.4377               
-##    Detection Prevalence : 0.6327               
-##       Balanced Accuracy : 0.6498               
-##                                                
-##        &#39;Positive&#39; Class : 1                    
+##
+##                   Kappa : 0.305
+##
+##  Mcnemar&#39;s Test P-Value : 0.00000000000009041
+##
+##             Sensitivity : 0.7597
+##             Specificity : 0.5400
+##          Pos Pred Value : 0.6918
+##          Neg Pred Value : 0.6230
+##              Prevalence : 0.5762
+##          Detection Rate : 0.4377
+##    Detection Prevalence : 0.6327
+##       Balanced Accuracy : 0.6498
+##
+##        &#39;Positive&#39; Class : 1
 ## </code></pre>
 </div>
 <div id="threshold-0.75-and-model-evaluation" class="section level2">
@@ -2083,31 +2083,31 @@ who likely to re-offend.</p>
 <span id="cb9-3"><a href="#cb9-3" tabindex="-1"></a>test_preds3 <span class="ot">&lt;-</span> <span class="fu">ifelse</span>(test_probs3 <span class="sc">&gt;</span> threshold3, <span class="dv">1</span>, <span class="dv">0</span>)</span>
 <span id="cb9-4"><a href="#cb9-4" tabindex="-1"></a><span class="fu">confusionMatrix</span>(<span class="fu">as.factor</span>(test_preds3), <span class="fu">as.factor</span>(test<span class="sc">$</span>recidivism_yes), <span class="at">positive =</span> <span class="st">&quot;1&quot;</span>)</span></code></pre></div>
 <pre><code>## Confusion Matrix and Statistics
-## 
+##
 ##           Reference
 ## Prediction    0    1
 ##          0 2240 2439
 ##          1  236  927
-##                                              
-##                Accuracy : 0.5421             
-##                  95% CI : (0.5292, 0.5549)   
-##     No Information Rate : 0.5762             
-##     P-Value [Acc &gt; NIR] : 1                  
-##                                              
-##                   Kappa : 0.1611             
-##                                              
+##
+##                Accuracy : 0.5421
+##                  95% CI : (0.5292, 0.5549)
+##     No Information Rate : 0.5762
+##     P-Value [Acc &gt; NIR] : 1
+##
+##                   Kappa : 0.1611
+##
 ##  Mcnemar&#39;s Test P-Value : &lt;0.0000000000000002
-##                                              
-##             Sensitivity : 0.2754             
-##             Specificity : 0.9047             
-##          Pos Pred Value : 0.7971             
-##          Neg Pred Value : 0.4787             
-##              Prevalence : 0.5762             
-##          Detection Rate : 0.1587             
-##    Detection Prevalence : 0.1991             
-##       Balanced Accuracy : 0.5900             
-##                                              
-##        &#39;Positive&#39; Class : 1                  
+##
+##             Sensitivity : 0.2754
+##             Specificity : 0.9047
+##          Pos Pred Value : 0.7971
+##          Neg Pred Value : 0.4787
+##              Prevalence : 0.5762
+##          Detection Rate : 0.1587
+##    Detection Prevalence : 0.1991
+##       Balanced Accuracy : 0.5900
+##
+##        &#39;Positive&#39; Class : 1
 ## </code></pre>
 </div>
 <div id="threshold-comparison-and-auc" class="section level2">
