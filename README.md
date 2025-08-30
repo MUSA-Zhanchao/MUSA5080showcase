@@ -1,11 +1,11 @@
 ## MUSA 5080: Public Policy Analytics Portfolio
 
-**Zhanchao Yang**  
+**Zhanchao Yang**
 **University of Pennsylvania, Weitzman School of Design**
 
 ### Course Information
 
-**MUSA 5080/CPLN 5920 - Public Policy Analytics**  
+**MUSA 5080/CPLN 5920 - Public Policy Analytics**
 Course intro Link: [https://www.design.upenn.edu/courses/musa-5080cpln-5920](https://www.design.upenn.edu/courses/musa-5080cpln-5920)
 
 This repository showcases coursework and projects from MUSA 5080: Public Policy Analytics, focusing on data analysis techniques and their applications in public policy decision-making.
@@ -15,7 +15,7 @@ This repository showcases coursework and projects from MUSA 5080: Public Policy 
 This portfolio includes the following assignments and projects:
 
 - **Assignment 1**: Census Data Analysis with R Markdown
-- **Assignment 2**: Neighborhood Indicators  
+- **Assignment 2**: Neighborhood Indicators
 - **Assignment 3**: Ordinary Least Squares (OLS) Regression and Introduction to Machine Learning
 - **Mid-term Project**: House Price Predictions - Building a predictive model for home prices in Charlotte, NC
 - **Assignment 4**: Logistic Regression for Parole Reform
